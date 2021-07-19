@@ -29,10 +29,6 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-
-      img.gif {
-
-      }
     }
   }
 
@@ -61,4 +57,10 @@ body {
     outline: none;
     border-bottom: 1px solid black;
   }
+}
+
+
+
+.gif {
+  width: 80%;
 }
