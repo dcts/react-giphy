@@ -8,3 +8,8 @@ const root = document.getElementById('root');
 if (root) {
   ReactDOM.render(<App />, root);
 }
+
+import Tenor from './services/Tenor.js';
+
+const t = new Tenor("NBHUCIKD8UJ7");
+window.t = t;

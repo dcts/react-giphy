@@ -35,6 +35,8 @@ body {
   .right-section {
     width: 60%;
     height: 100%;
+    background-color: #ecf0f1;
+    overflow: scroll;
   }
 }
 
@@ -62,5 +64,19 @@ body {
 
 
 .gif {
-  width: 80%;
+  // width: 80%;
+  max-width: 200px;
+}
+
+
+.gif-list {
+  column-count: 2;
+  column-gap: 5px;
+  padding: 5px;
+
+  .gif {
+    width: 100%;
+    margin: 5px;
+    cursor: pointer;
+  }
 }
